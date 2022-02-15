@@ -1,6 +1,6 @@
 ---
 layout: single
-title: JavaScript - 1 
+title: JavaScript 정리(1)~
 ---
 ```python
 <h1><a href="index.html">WEB</a></h1>
