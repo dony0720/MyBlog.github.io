@@ -19,9 +19,8 @@ title: JavaScript 정리(1)~
 ```
 
 input type ="button" value = "night"- input type ="button"으로 푸쉬 버튼을 생성하고<br>
-value에 값을 지정해주어 버튼안에 night이 쓰여있는걸 볼 수 있다<br> 
-
-
+value에 값을 지정해주어 버튼안에 night이 쓰여있는걸 볼 수 있다<br>
+onclick = "" - click 했을때 아래의 코드가 실행 
 
 ```python
  if(this.value === 'night'){
