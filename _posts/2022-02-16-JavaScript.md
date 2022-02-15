@@ -1,3 +1,7 @@
+---
+layout: single
+title: JavaScript - 1 
+---
 ```python
 <h1><a href="index.html">WEB</a></h1>
   <input id="night_day" type="button" value="night" onclick="
