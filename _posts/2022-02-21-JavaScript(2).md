@@ -1,3 +1,7 @@
+---
+layout: single
+title: JavaScript(2) 정리 
+---
 ```python
 <input id="night_day" type="button" value="night" onclick="
     var target = document.querySelector('body');
