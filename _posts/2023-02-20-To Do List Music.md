@@ -3,10 +3,9 @@ layout: single
 title: To Do List - Mp3 기능 구현 
 ---
 # mp3 player 기능 
-* * *
 
 ## 소스코드 
-* * *
+
 
 ```python
 const mp3 = new Audio("bird.mp3")
@@ -54,7 +53,6 @@ function play() {
 
 
 ## 자주 쓰이는 Audio 객체의 속성
-* * *
 
 + audio.autoplay = true;
 
@@ -88,7 +86,6 @@ function play() {
 
 
 ## 자주 쓰이는 Audio 객체의 메소드
-* * *
 
 + audio.play();
 
