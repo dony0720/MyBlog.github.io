@@ -26,8 +26,8 @@ title: To Do List - HTML 구조
     </div>
     <div class="volume">
         <div>volume</div>
-        <input class="volume-controll" type="range" step="0.1"
-            min="1" max="10" value="0.5">
+        <input class="volume-controll" type="range" step="0.01"
+            min="0" max="1" value="0.5">
     </div>
     <div class="backGround">
         <button class="changeBackgroud">배경바꾸기</button>
