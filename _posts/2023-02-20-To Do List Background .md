@@ -44,6 +44,7 @@ document.body.appendChild(bgImage);
 이미지 태그를 생성하기 위해 **document.createElement("img")** 를 사용함   
 + createElement()에 생성하고자 하는 태그를 입력 
 
+
 **const chosenImage = images[Math.floor(Math.random() * images.length)]**   
 + 배경 선택을 랜덤으로 하기 위해서 0~1사이에 난수를 생성는 **Math.random**을 사용   
 + 발생한 난수를 images 배열의 길이 만큼 곱해 0 ~ images.length 사이에 난수를 생성 
@@ -51,8 +52,10 @@ document.body.appendChild(bgImage);
 + 암호학적으로 안전한 난수를 발생시키지 않아 보안과 관련해서는 사용하지 말아야 한다 
   그 대신 Web Crypto API의 window.crypto.getRandomValues() 메소드를 이용하여야 한다.
 
+
 **bgImage.src = `img/${chosenImage}`;**
 + 생성된 img태그의 src를 지정
+
 
 **document.body.appendChild(bgImage)** 
 + createElement("img")와 bgImage.src = `img/${chosenImage}`를 사용해 생성된   
