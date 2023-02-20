@@ -1,6 +1,6 @@
 ---
 layout: single
-title: To Do List - HTML 구조
+title: To Do List - Login 기능
 ---
 
 # login 기능 구현 
