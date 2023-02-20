@@ -1,6 +1,6 @@
 ---
 layout: single
-title: HTML정리!!
+title: To Do List HTML 구조 !!
 ---
 
 #  HTML구조 잡기 
