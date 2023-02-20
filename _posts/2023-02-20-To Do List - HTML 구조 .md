@@ -37,7 +37,7 @@ title: To Do List HTML 구조 !!
 
 ### login_form 부분 
 
-**input의 유효성을 검사하기 위해서 form 태그를 사용
+**input의 유효성을 검사하기 위해서 form 태그를 사용**
 
 ## clock
 
@@ -79,4 +79,4 @@ title: To Do List HTML 구조 !!
 ```
 
 ### dates 부분 
-**js로 날짜를 대입하기 위해서 만들어 둠 </p>
+**js로 날짜를 대입하기 위해서 만들어 둠**
