@@ -61,11 +61,20 @@ const greeting = document.querySelector("#greeting");
 
 **HTML 요소의 선택은 다음과 같습니다**
 
-**document.getElementsByTagName(태그이름):** 해당 태그 이름의 요소를 모두 선택함.
-**document.getElementById(아이디):** 해당 아이디의 요소를 선택함 
-**cument.getElementsByClassName(클래스이름):** 해당 클래스에 속한 요소를 모두 선택함.
-**document.getElementsByName(name속성값):** 해당 name 속성값을 가지는 요소를 모두 선택함.
-**document.querySelectorAll(선택자):** 해당 선택자로 선택되는 요소를 모두 선택함.
+**document.getElementsByTagName(태그이름):**   
+-> 해당 태그 이름의 요소를 모두 선택함.
+
+**document.getElementById(아이디):**   
+-> 해당 아이디의 요소를 선택함 
+
+**document.getElementsByClassName(클래스이름):** 
+-> 해당 클래스에 속한 요소를 모두 선택함.
+
+**document.getElementsByName(name속성값):** 
+-> 해당 name 속성값을 가지는 요소를 모두 선택함.
+
+**document.querySelectorAll(선택자):** 
+-> 해당 선택자로 선택되는 요소를 모두 선택함.
 
 ## onLogin 함수 
 
@@ -99,7 +108,7 @@ function paintGreetings(username) {
 }
 ```
 
-**innerText를 사용해** id 값이 greeting인 h1 태그 안에 `Hello ${username}`를 출력 
+**innerText를 사용해** id 값이 greeting인 h1 태그 안에 **`Hello ${username}`를 출력** 
 
 
 ```python
