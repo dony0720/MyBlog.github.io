@@ -59,4 +59,4 @@ document.body.appendChild(bgImage);
 
 **document.body.appendChild(bgImage)** 
 + createElement("img")와 bgImage.src = `img/${chosenImage}`를 사용해 생성된   
-  img src = "chosenImage"가  body의 자식으로 들어간다 
+  `img src = "chosenImage"`가  body의 자식으로 들어간다 
