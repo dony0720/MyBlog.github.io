@@ -80,12 +80,13 @@ function onLogin(event){
 }
 ```
 
-login_input.value의 값을 가져오기 위해서 **form태그의 자동으로 submit되고 페이지를 재시작하는 동작을 막기위해** 
+login_input.value의 값을 가져오기 위해서 
+**form태그의 자동으로 submit되고 페이지를 재시작하는 동작을 막기위해** 
 event의 기본 동작을 막는 **event.preventDefault()를 사용함**  
   
 login 되었을때 login_form 부분은 보이지 않게 하기위해 **classList를 사용해** 기존 클래스명을 유지한채 'hidden' 클래스명을 추가 
 
-input에 넣은 값을 저장하기위해 localStorage.setItem("username", username) 을 사용함 
+input에 넣은 값을 저장하기위해 **localStorage.setItem("username", username)** 을 사용함 
 개발자 도구에서 Application 메뉴로 이동해 Local Storage 항목을 선택해 확인할 수 있다. 
 
 ## paintGreetings 함수 
@@ -114,4 +115,5 @@ if (savedUsername === null) {
 
 Local Storage에 저장된 username의 값이 없다면 login 부분의 class ="hidden"을 한다.
 
-**login_form.addEventListener("submit", onLogin) ->** login_form에서 submit 이벤트를 감지할때 onLogin 함수를 실행  
+**login_form.addEventListener("submit", onLogin) ->** login_form에서 submit 이벤트를 
+감지할때 onLogin 함수를 실행  
