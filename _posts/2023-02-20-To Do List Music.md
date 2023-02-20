@@ -1,3 +1,7 @@
+---
+layout: single
+title: To Do List - Mp3 기능 구현 
+---
 # mp3 player 기능 
 
 ## 소스코드 
@@ -55,7 +59,7 @@ function play() {
 audio가 load 될 때 자동재생됨
 
 
-+ audio.currentTime = 5;
++ audio.currentTime = 5
 
 audio의 재생시점을 5초로 설정함
 
@@ -80,6 +84,7 @@ audio의 경로를 지정함(URL)
 audio의 음량을 0.2로 지정함
 음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
 
+
 ## <자주 쓰이는 Audio 객체의 메소드>
 
 + audio.play();
@@ -91,8 +96,8 @@ audio의 음량을 0.2로 지정함
 
 오디오를 일시정지함 
 
+
 + audio.load();
 
 audio를 다시 load함
-
 주로 audio의 src나 설정이 바뀌었을 경우에 사용
