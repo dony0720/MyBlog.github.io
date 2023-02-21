@@ -163,15 +163,18 @@ function renderCalendar() {
 + 연도를 가져오는 변수 설정 
 
 
+
 **const view_month = dt.getMonth();**
 
 + 월을 가져오는 변수 설정 
+
 
 
 **document.querySelector(".year-month").textContent = `${view_year}년 ${view_month + 1}월`**
 
 + dt.getMonth는 반환 값이 현지 시간 기준 월을 나타내는 0 에서 11 사이의 정수를 반환한다 
 + 0은 1월, 1은 2월 2은 3월....을 나타내므로 해당 월 출력하기 위해서 +1을 해줘야한다 
+
 
 
 매달 마지막 요일 날짜 수가 다르기 때문에 해당되는 월의 마지막 날짜와 요일을 얻는 코드를 작성해야 합니다 
@@ -185,16 +188,19 @@ function renderCalendar() {
 + 같은 원리로 이번달 마지막 날을 출력하기위해 date 파라미터에 0을 전달 
 
 
+
 **const preDate = preLast.getDate()** 
 
 + getDate 메서드는 현지 시간 기준으로 1~31사이에 날짜 수를 반영 
 + preDate는 지난달 마지막 요일의 날짜 수를 반환 
 
 
+
 **const preDay = preLast.getDay()** 
 
 + getDay 메서드는 현지 시간 기준으로 요일을 반영 
 + 일요일은 0을, 월요일은 1을 .....토요일은 6을 반영 
+
 
 
 ### 날짜 합치기 
@@ -220,11 +226,11 @@ const firstDateIndex = dates.indexOf(1);
 const lastDateIndex = dates.lastIndexOf(tdDate);
 ```
 
+
 **달력에 날짜 출력을 위해서 지난달 날짜의 일부분, 이번달 날짜, 
 다음달의 날짜 일부분을 출력하기위해 배열을 생성** 
 
 **const preDates = [] ->** 지난달 날짜 
-
 
 **const thisDates = [...Array(tdDate + 1).keys()].slice(1)**
 
@@ -239,7 +245,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 5. 제일 앞에 있는 0을 없애기 위해서 slice 메서드를 활용
 
 
+
 **const nextDates = [] ->** 다음날 날짜 
+
 
 
 **지난달 날짜 생성**
@@ -257,6 +265,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 3. 배열의 뒤-> 앞으로 아이템을 채워넣는 unshift를 활용해 
    마지막날을 시작으로 1씩 감소한 값을 배열 앞에 채워 넣었습니다
+
 
 
 
@@ -286,6 +295,8 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 + 이번달 마지막 날짜를 변수 설정 
 
+
+
 ### forEach 삼항연산자를 사용해 이번달 날짜 구분하기 
 
 
@@ -307,6 +318,7 @@ document.querySelector('.dates').innerHTML = dates.join('');**
   아래의 코드를 실행시킴 
 
 
+
 **const condition = i >= firstDateIndex && i < lastDateIndex + 1
       ? 'this'
       : 'other';** 
@@ -319,8 +331,10 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 + this와 other을 구분하는 이유는 달력에 이번달을 제외한 나머지달의 글자 색을 연하게 하기 위함이다 
 
 
+
 **dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;**
 + this와 other을 구분해 dates 배열에 재할당 
+
 
 
 **document.querySelector('.dates').innerHTML = dates.join('');**
