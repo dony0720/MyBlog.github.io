@@ -156,7 +156,7 @@ function renderCalendar() {
 }
 ```
 
-### 날짜 구하기 
+## 날짜 구하기 
 
 **const view_year = dt.getFullYear()** 
 
@@ -204,7 +204,7 @@ function renderCalendar() {
    
    
 
-### 날짜 합치기 
+## 날짜 합치기 
 
 ```python
 const preDates = [];
@@ -229,8 +229,8 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
   
   
 
-**달력에 날짜 출력을 위해서 지난달 날짜의 일부분, 이번달 날짜, 
-다음달의 날짜 일부분을 출력하기위해 배열을 생성** 
+## 달력에 날짜 출력을 위해서 지난달 날짜의 일부분, 이번달 날짜,   
+## 다음달의 날짜 일부분을 출력하기위해 배열을 생성 
 
 **const preDates = [] ->** 지난달 날짜 
 
@@ -252,7 +252,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
  
  
  
-**지난달 날짜 생성**
+## 지난달 날짜 생성
 
 **if (preDay !== 6) {
     for (let i = 0; i < preDay + 1; i++) {
@@ -271,7 +271,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
  
  
  
-**다음달 날짜 생성**
+## 다음달 날짜 생성
 
 **for (let i = 1; i < 7 - tdDay; i++) {
     nextDates.push(i);
@@ -299,7 +299,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
  
  
  
-### forEach 삼항연산자를 사용해 이번달 날짜 구분하기 
+## forEach 삼항연산자를 사용해 이번달 날짜 구분하기 
 
 
 ```python
