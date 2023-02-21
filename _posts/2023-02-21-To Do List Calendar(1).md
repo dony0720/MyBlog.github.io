@@ -321,9 +321,9 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 
 
 
-**`const condition = i >= firstDateIndex && i < lastDateIndex + 1
+**const condition = i >= firstDateIndex && i < lastDateIndex + 1
       ? 'this'
-      : 'other';`** 
+      : 'other';** 
     
 + codition의 조건문은 i가 firstDateIndex(이번달 첫 날짜) 와 lastDateIndex(이번달 마지막 날짜) 사이에 있을때로 설정함
 + 이유는 이번달에 해당되는 날짜의 class가 this가 되고 저번달과 다음달에 해당되는 날짜의 calss가 other이 되기 때문이다 
@@ -334,7 +334,7 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 
 
 
-**`dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;`**
+**dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;**
 + this와 other을 구분해 dates 배열에 재할당 
 
 
