@@ -200,11 +200,11 @@ function renderCalendar() {
 
 + getDay 메서드는 현지 시간 기준으로 요일의 인덱스값을 반영 
 + 일요일은 0을, 월요일은 1을 . . . . . 토요일은 6을 반영 
-
-
+   
+   
+   
 
 ### 날짜 합치기 
-
 
 ```python
 const preDates = [];
@@ -225,7 +225,9 @@ const dates = preDates.concat(thisDates, nextDates);
 const firstDateIndex = dates.indexOf(1);
 const lastDateIndex = dates.lastIndexOf(tdDate);
 ```
-
+  
+  
+  
 
 **달력에 날짜 출력을 위해서 지난달 날짜의 일부분, 이번달 날짜, 
 다음달의 날짜 일부분을 출력하기위해 배열을 생성** 
@@ -247,9 +249,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 
 **const nextDates = [] ->** 다음날 날짜 
-
-
-
+ 
+ 
+ 
 **지난달 날짜 생성**
 
 **if (preDay !== 6) {
@@ -266,9 +268,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 3. 배열의 뒤-> 앞으로 아이템을 채워넣는 unshift를 활용해 
    마지막날을 시작으로 1씩 감소한 값을 배열 앞에 채워 넣었습니다
 
-
-
-
+ 
+ 
+ 
 **다음달 날짜 생성**
 
 **for (let i = 1; i < 7 - tdDay; i++) {
@@ -294,9 +296,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 **const lastDateIndex = dates.lastIndexOf(tdDate);** 
 
 + 이번달 마지막 날짜를 변수 설정 
-
-
-
+ 
+ 
+ 
 ### forEach 삼항연산자를 사용해 이번달 날짜 구분하기 
 
 
