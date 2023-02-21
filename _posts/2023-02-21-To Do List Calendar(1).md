@@ -158,19 +158,19 @@ function renderCalendar() {
 
 ## 날짜 구하기 
 
-**const view_year = dt.getFullYear()** 
+**`const view_year = dt.getFullYear()`** 
 
 + 연도를 가져오는 변수 설정 
 
 
 
-**const view_month = dt.getMonth();**
+**`const view_month = dt.getMonth()`**
 
 + 월을 가져오는 변수 설정 
 
 
 
-**document.querySelector(".year-month").textContent = `${view_year}년 ${view_month + 1}월`**
+**`document.querySelector(".year-month").textContent = `${view_year}년 ${view_month + 1}월`**
 
 + dt.getMonth는 반환 값이 현지 시간 기준 월을 나타내는 0 에서 11 사이의 정수를 반환한다 
 + 0은 1월, 1은 2월 2은 3월....을 나타내므로 해당 월 출력하기 위해서 +1을 해줘야한다 
@@ -179,8 +179,8 @@ function renderCalendar() {
 
 매달 마지막 요일 날짜 수가 다르기 때문에 해당되는 월의 마지막 날짜와 요일을 얻는 코드를 작성해야 합니다 
 
-**const preLast = new Date(view_year, view_month, 0) ->** 다음달 마지막 날짜  
-**const thisLast = new Date(view_year, view_month + 1, 0) ->** 이번달 마지막 날짜 
+**`const preLast = new Date(view_year, view_month, 0)`** 다음달 마지막 날짜  
+**`const thisLast = new Date(view_year, view_month + 1, 0)`** 이번달 마지막 날짜 
 
 + 지난달 날짜의 일부분과 이번달 날짜를 출력하기 위해 변수 설정 
 + 새로운 Date객체를 생성할 때, date 파라미터에 0을 전달하게 되면, 
@@ -189,14 +189,14 @@ function renderCalendar() {
 
 
 
-**const preDate = preLast.getDate()** 
+**`const preDate = preLast.getDate()`** 
 
 + getDate 메서드는 현지 시간 기준으로 1~31사이에 날짜 수를 반영 
 + preDate는 지난달 마지막 요일의 날짜 수를 반환 
 
 
 
-**const preDay = preLast.getDay()** 
+**`const preDay = preLast.getDay()`** 
 
 + getDay 메서드는 현지 시간 기준으로 요일의 인덱스값을 반영 
 + 일요일은 0을, 월요일은 1을 . . . . . 토요일은 6을 반영 
@@ -232,9 +232,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 ## 달력에 날짜 출력을 위해서 지난달 날짜의 일부분, 이번달 날짜,   
 ## 다음달의 날짜 일부분을 출력하기위해 배열을 생성 
 
-**const preDates = [] ->** 지난달 날짜 
+**`const preDates = []`** 지난달 날짜 
 
-**const thisDates = [...Array(tdDate + 1).keys()].slice(1)**
+**`const thisDates = [...Array(tdDate + 1).keys()].slice(1)`**
 
 1. Array(n)으로 배열을 만들면 길이가 n인 배열이 생성됩니다. (이때 모든 요소들은 undefined)
 
@@ -248,17 +248,17 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 
 
-**const nextDates = [] ->** 다음날 날짜 
+**`const nextDates = []`** 다음날 날짜 
  
  
  
 ## 지난달 날짜 생성
 
-**if (preDay !== 6) {      
+**`if (preDay !== 6) {      
   for (let i = 0; i < preDay + 1; i++) {   
     preDates.unshift(preDate - i);   
       }   
-}** 
+}`** 
 
 1. preDay !== 6 -> 지난달 마지막 요일이 토요일인 경우(index값이 6) 출력할 필요가 없음
 
@@ -273,9 +273,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
  
 ## 다음달 날짜 생성
 
-**for (let i = 1; i < 7 - tdDay; i++) {   
+**`for (let i = 1; i < 7 - tdDay; i++) {   
       nextDates.push(i);   
-    }**
+    }`**
   
 1. for (let i = 1; i < 7 - tdDay; i++) 
    -> 일주일 중에 이번달 마지막 요일의 인덱스 값을 빼면 다음달 출력할 요일의 수가 나오게 된다 
@@ -283,17 +283,17 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 2. 다음달의 시작 날짜 수는 1 부터 이므로 i값을 push 함수를 이용해 nextDates에 채워 넣는다 
 
 
-**const dates = preDates.concat(thisDates, nextDates);** 
+**`const dates = preDates.concat(thisDates, nextDates)`** 
 
 + preDates 배열 뒤에 파라미터 순서대로 배열을 합침 
 
 
-**const firstDateIndex = dates.indexOf(1);**
+**`const firstDateIndex = dates.indexOf(1)`**
 
 + indexOf 함수는, 문자열(string)에서 특정 문자열(searchvalue)을 찾고, 
     검색된 문자열이 '첫번째'로 나타나는 위치 index를 리턴합니다.
   
-**const lastDateIndex = dates.lastIndexOf(tdDate);** 
+**`const lastDateIndex = dates.lastIndexOf(tdDate)`** 
 
 + 이번달 마지막 날짜를 변수 설정 
  
@@ -321,9 +321,9 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 
 
 
-**const condition = i >= firstDateIndex && i < lastDateIndex + 1
+**`const condition = i >= firstDateIndex && i < lastDateIndex + 1
       ? 'this'
-      : 'other';** 
+      : 'other';`** 
     
 + codition의 조건문은 i가 firstDateIndex(이번달 첫 날짜) 와 lastDateIndex(이번달 마지막 날짜) 사이에 있을때로 설정함
 + 이유는 이번달에 해당되는 날짜의 class가 this가 되고 저번달과 다음달에 해당되는 날짜의 calss가 other이 되기 때문이다 
@@ -334,12 +334,12 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 
 
 
-**dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;**
+**`dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;`**
 + this와 other을 구분해 dates 배열에 재할당 
 
 
 
-**document.querySelector('.dates').innerHTML = dates.join('');**
+**`document.querySelector('.dates').innerHTML = dates.join('');`**
 + dates.join('') -> dates의 배열을 하나의 배열값으로 만들어줌 
 + ex) const arr =[a,b,c]
      +let result1 = arr.join();
