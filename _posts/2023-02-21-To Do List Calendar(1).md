@@ -199,7 +199,7 @@ function renderCalendar() {
 **const preDay = preLast.getDay()** 
 
 + getDay 메서드는 현지 시간 기준으로 요일을 반영 
-+ 일요일은 0을, 월요일은 1을 .....토요일은 6을 반영 
++ 일요일은 0을, 월요일은 1을 . . . . . 토요일은 6을 반영 
 
 
 
