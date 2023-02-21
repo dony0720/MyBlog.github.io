@@ -254,10 +254,10 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
  
 ## 지난달 날짜 생성
 
-**if (preDay !== 6) {   
-    for (let i = 0; i < preDay + 1; i++) {   
-      preDates.unshift(preDate - i);   
-    }   
+**if (preDay !== 6) {      
+  for (let i = 0; i < preDay + 1; i++) {   
+    preDates.unshift(preDate - i);   
+      }   
 }** 
 
 1. preDay !== 6 -> 지난달 마지막 요일이 토요일인 경우(index값이 6) 출력할 필요가 없음
@@ -274,8 +274,8 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 ## 다음달 날짜 생성
 
 **for (let i = 1; i < 7 - tdDay; i++) {   
-    nextDates.push(i);   
-  }**
+      nextDates.push(i);   
+    }**
   
 1. for (let i = 1; i < 7 - tdDay; i++) 
    -> 일주일 중에 이번달 마지막 요일의 인덱스 값을 빼면 다음달 출력할 요일의 수가 나오게 된다 
