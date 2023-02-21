@@ -314,7 +314,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 document.querySelector('.dates').innerHTML = dates.join('');**   
 ```
 
-**dates.forEach((date, i) =>**
+**`dates.forEach((date, i) =>`**
 
 + dates.forEach((date, i)는 i의 값을 1씩 증가시키고 dates 배열의 길이만큼 반복하며
   아래의 코드를 실행시킴 
