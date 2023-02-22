@@ -149,7 +149,8 @@ body {
 <br>
 
 ![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%B0%EB%8D%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%203.png) 
-   **이제 어느정도 잘 정리된 달력의 모양을 볼 수가 있다.**
+   
+**이제 어느정도 잘 정리된 달력의 모양을 볼 수가 있다.**
 
 <br>
 <br>
@@ -190,9 +191,11 @@ body {
   condition의 조건이 참일때 `this` 거짓일때 `other`를 했던 부분이 생각날 것이다.**
 
 + 이번달에 해당되지 않는 날짜는 흐릿하게 보여주기 위해서 opacity를 투명도를 결정해줌 
+<br>
+<br>
 
 ## 완성된 달력 
 
 ![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%AC%EB%8D%98%20%EC%8A%A4%ED%83%80%EC%9D%BC%204.png) 
 
-**이제 버튼의 기능을 만들어 좀 더 동적인 달력을 만들어봐**
+**이제 버튼의 기능을 만들어 좀 더 동적인 달력을 만들어보자**
