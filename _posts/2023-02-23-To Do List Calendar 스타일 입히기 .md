@@ -90,8 +90,8 @@ body {
 } 
 ```
 
-+ `border: none` 사용해 버튼의 선을 제거 
-  `background-color: transparent` 사용해 배경색을 지정하지 않음 
++ **`border: none`** 사용해 버튼의 선을 제거 
+  **`background-color: transparent`** 사용해 배경색을 지정하지 않음 
 <br>
 <br>
 
