@@ -1,6 +1,6 @@
 ---
 layout: single
-title: To Do List Calendar(3) 버튼 기능구현 
+title: To Do List - Calendar(3) 버튼 기능구현 
 ---
 # Calendar(3) 버튼 기능 구현 
 
