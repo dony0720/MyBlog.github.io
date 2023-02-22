@@ -345,3 +345,5 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 + ex) const arr =[a,b,c]
      +let result1 = arr.join();
      +결과 값: a,b,c
+
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/calendar%20test.png)
