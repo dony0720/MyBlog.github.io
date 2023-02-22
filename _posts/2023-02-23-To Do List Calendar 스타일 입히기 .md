@@ -137,7 +137,7 @@ body {
 + 날짜도 한줄에 7개가 있어야 하므로 **100%/7**의 값을 너비값으로 줌 
 
 ![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%B0%EB%8D%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%203.png) 
-### 이제 어느정도 잘 정리된 달력의 모양을 볼 수가 있다. 이제 토요일과 일요일에
+**이제 어느정도 잘 정리된 달력의 모양을 볼 수가 있다.
 
 
 ```python
