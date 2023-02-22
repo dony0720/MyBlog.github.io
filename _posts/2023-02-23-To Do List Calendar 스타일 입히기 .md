@@ -28,7 +28,7 @@ body {
 
 ```
 
-+  * 를 선택해 전체적인 태그들의 **margin과 padding을 없애준다    
++ 전체적인 태그들의 **margin과 padding을 없애준다    
 + 달력을 가운데 정렬하기위해서 **display: flex**    
 + 좌우 가운데 정령을 위해 **justify-content: center;**
 + 위아래 가운데 정렬을 위해서 **align-items: center;** 
@@ -89,6 +89,7 @@ body {
 + border: none 사용해 버튼의 선을 제거 
   background-color: transparent 사용해 배경색을 지정하지 않음 
 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%B0%EB%8D%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%202.png)
 
 ```python
 .days {
@@ -135,7 +136,7 @@ body {
   주어진 픽셀에 맞춰 자연스럽운 줄 바꿈을 할 수 있다. 
 + 날짜도 한줄에 7개가 있어야 하므로 **100%/7**의 값을 너비값으로 줌 
 
-사진    
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%B0%EB%8D%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%203.png) 
 ### 이제 어느정도 잘 정리된 달력의 모양을 볼 수가 있다. 이제 토요일과 일요일에
 
 
@@ -174,6 +175,6 @@ body {
 
 ## 완성된 달력 
 
-사진 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%AC%EB%8D%98%20%EC%8A%A4%ED%83%80%EC%9D%BC%204.png) 
 
 **이제 버튼의 기능을 만들어 좀 더 동적인 달력을 만들어봐**
