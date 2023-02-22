@@ -346,5 +346,8 @@ document.querySelector('.dates').innerHTML = dates.join('');**
      +let result1 = arr.join();
      +결과 값: a,b,c
 
-**출력된 날짜의 결과는 아래와 같다**
-![](https://github.com/dony0720/dony0720.github.io/blob/master/image/calendar%20test.png)
+### 날짜 출력   
+
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/calendar%20test.png)   
+   
+**뒤에 css를 통해서 보기 쉽게 정리를 해보는게 좋을거 같습니다** 
