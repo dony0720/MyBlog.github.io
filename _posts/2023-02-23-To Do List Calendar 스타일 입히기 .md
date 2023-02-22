@@ -64,7 +64,7 @@ body {
 ```
 
 + header안에 있는 날짜와 버튼을 좌우 양쪽 정렬과 상하 가운데 정렬을 해주기 위해서   
-  **justify-content: space-around; 와 align-items: center;를 사용 
+  **justify-content: space-around; 와 align-items: center;를 사용**
    
 + 그리고 버튼을 한줄로 정렬하기 위해서 **flex** 사용 
 
