@@ -33,9 +33,8 @@ body {
 + 달력을 가운데 정렬하기위해서 **display: flex**    
 + 좌우 가운데 정령을 위해 **justify-content: center;**
 + 위아래 가운데 정렬을 위해서 **align-items: center;** 
-
-
-
+<br>
+<br>
 ```python
 .calendar {
   width: 600px;
