@@ -27,7 +27,7 @@ body {
 
 ```
 
-+ 전체적인 태그들의 **margin과 padding을 없애준다    
++ 전체적인 태그들의 **margin과 padding을 없애준다**    
 + 달력을 가운데 정렬하기위해서 **display: flex**    
 + 좌우 가운데 정령을 위해 **justify-content: center;**
 + 위아래 가운데 정렬을 위해서 **align-items: center;** 
