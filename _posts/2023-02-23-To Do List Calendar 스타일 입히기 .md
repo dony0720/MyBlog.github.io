@@ -35,6 +35,7 @@ body {
 + 위아래 가운데 정렬을 위해서 **align-items: center;** 
 <br>
 <br>
+
 ```python
 .calendar {
   width: 600px;
