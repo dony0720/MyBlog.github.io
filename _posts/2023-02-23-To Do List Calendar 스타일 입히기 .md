@@ -27,10 +27,10 @@ body {
 
 ```
 
-+ 전체적인 태그들의 **margin과 padding을 없애준다**    
-+ 달력을 가운데 정렬하기위해서 **display: flex**    
-+ 좌우 가운데 정령을 위해 **justify-content: center;**
-+ 위아래 가운데 정렬을 위해서 **align-items: center;** 
++ 전체적인 태그들의 **`margin`과 `padding`을 없애준다**    
++ 달력을 가운데 정렬하기위해서 **`display: flex`**    
++ 좌우 가운데 정령을 위해 **`justify-content: center;`**
++ 위아래 가운데 정렬을 위해서 **`align-items: center;`** 
 <br>
 <br>
 
@@ -66,7 +66,7 @@ body {
 ```
 
 + header안에 있는 날짜와 버튼을 좌우 양쪽 정렬과 상하 가운데 정렬을 해주기 위해서   
-  **justify-content: space-around; 와 align-items: center;를 사용**
+  **`justify-content: space-around;`와 `align-items: center;`를 사용**
    
 + 그리고 버튼을 한줄로 정렬하기 위해서 **flex** 사용 
 
@@ -90,8 +90,8 @@ body {
 } 
 ```
 
-+ border: none 사용해 버튼의 선을 제거 
-  background-color: transparent 사용해 배경색을 지정하지 않음 
++ `border: none` 사용해 버튼의 선을 제거 
+  `background-color: transparent` 사용해 배경색을 지정하지 않음 
 <br>
 <br>
 
@@ -111,8 +111,8 @@ body {
     text-align: center;
 }
 ```
-+ days 클래스에 있는 요일들을 한줄로 정렬하기 위해 **flex** 사용 
-+ margin : 위 좌우 아래; 속성을 이용해서 margin 값을 줌 
++ days 클래스에 있는 요일들을 한줄로 정렬하기 위해 **`flex`** 사용 
++ `margin : 위 좌우 아래;` 속성을 이용해서 margin 값을 줌 
 + 요일은 7개이므로 각 요일의 너비를 같게 하기위해서 **100%/7**의 값을 너비값으로 줌 
 
 <br>
@@ -139,9 +139,9 @@ body {
 ```
 
 
-+ 각 날짜들의 정렬을 위해서 **display: flex;**를 사용 
-+ 아이템들의 자연스러운 줄바꿈을 위해서 **flex-flow: row wrap**을 사용 
-+ height를 고정할시 아이템의 갯수에 상관없이 
++ 각 날짜들의 정렬을 위해서 **`display: flex;`**를 사용 
++ 아이템들의 자연스러운 줄바꿈을 위해서 **`flex-flow: row wrap`**을 사용 
++ `height`를 고정할시 아이템의 갯수에 상관없이 
   주어진 픽셀에 맞춰 자연스럽운 줄 바꿈을 할 수 있다. 
 + 날짜도 한줄에 7개가 있어야 하므로 **100%/7**의 값을 너비값으로 줌 
 
