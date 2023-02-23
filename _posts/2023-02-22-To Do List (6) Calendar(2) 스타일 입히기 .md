@@ -1,6 +1,6 @@
 ---
 layout: single
-title: To Do List - Calendar(2) 스타일 입히기
+title: To Do List (6) - Calendar(2) 스타일 입히기
 ---
 
 # Calendar 스타일 입히기 
