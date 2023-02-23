@@ -1,6 +1,6 @@
 ---
 layout: single
-title: To Do List - 배경화면 바꾸기 기능 구현 
+title: To Do List (3) - 배경화면 바꾸기 기능 구현 
 ---
 # 배경화면 바꾸기 기능 구현 
 
