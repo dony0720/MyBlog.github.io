@@ -1,6 +1,6 @@
 ---
 layout: single
-title: To Do List - Login 기능
+title: To Do List (2) - Login 기능
 ---
 
 # login 기능 구현 
