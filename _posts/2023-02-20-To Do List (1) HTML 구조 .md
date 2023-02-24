@@ -375,6 +375,7 @@ main {
 
 ## todo.css 
 
+```python
 .todo-box {  
     width: 373px;
     height: 580px;
@@ -416,6 +417,7 @@ main {
     padding: 10px;
     margin: 5px;
 }
+```
 
 + **`overflow-x: none;`** , **`overflow-y: scroll;`** 를 사용해 
   y축 scroll만 이용해 리스트 내용이 많을때 이용 
