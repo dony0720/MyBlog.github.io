@@ -231,7 +231,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
   
   
 
-## 달력에 날짜 출력을 위해서 지난달 날짜의 일부분, 이번달 날짜, <br>다음달의 날짜 일부분을 출력하기위해 배열을 생성 
+## 지난달 날짜의 일부분, 이번달 날짜, 다음달의 날짜 일부분을 출력하기위해 배열을 생성 
 
 **`const preDates = []`** 지난달 날짜 
 
@@ -250,8 +250,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 
 **`const nextDates = []`** 다음날 날짜 
- 
- 
+  
  
 ## 지난달 날짜 생성
 
@@ -269,9 +268,6 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 3. 배열의 뒤-> 앞으로 아이템을 채워넣는 unshift를 활용해 
    마지막날을 시작으로 1씩 감소한 값을 배열 앞에 채워 넣었습니다
 
- 
- 
- 
 ## 다음달 날짜 생성
 
 **for (let i = 1; i < 7 - tdDay; i++) {   
