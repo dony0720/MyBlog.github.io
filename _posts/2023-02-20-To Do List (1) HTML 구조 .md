@@ -1,3 +1,7 @@
+---
+layout: single
+title: To Do List (1) - HTML 구조 작성 
+---
 #  HTML구조 작성 
 
 ## 소스코드 
