@@ -87,16 +87,16 @@ function handleToDoSubmit(event){
  }
 ```
 
-+ **`function handleToDoSubmit(event)`** javascript가 발생한 event를 함수의 첫번째 인자로 주게된다. 
+1. **`function handleToDoSubmit(event)`**   javascript가 발생한 event를 함수의 첫번째 인자로 주게된다. 
 
-+ **`event.preventDefault();`** event의 기본 동작을 막는다 
+2. **`event.preventDefault();`**    event의 기본 동작을 막는다 
 
-+ newToDo에 input의 값을 저장하고 엔터를 누를때 input을 비우기 위해 **`toDoInput.value = ""`** 사용  
+3. newToDo에 input의 값을 저장하고 엔터를 누를때 input을 비우기 위해    **`toDoInput.value = ""`** 사용  
 
-+ newTodoObj 객체를 생성하고 text 에는 **newToDo**를 각 리스트의 분별력을 주기 위해서 id 값을   
+4. newTodoObj 객체를 생성하고 text 에는 **newToDo**를 각 리스트의 분별력을 주기 위해    id 값을   
   **`Date.now()`** 리스트가 작성된 시간으로 반영
 
-+ 할당된 객체는 **toDos**배열에 채워넣는다 
+5. 할당된 객체는 **toDos**배열에 채워넣는다 
 
 ## paintToDo()함수 
 
@@ -119,32 +119,31 @@ toDoList.appendChild(li);
 }
 ```
 
-+ **`const li = document.createElement("li");`** li 태그 생성 
+1. **`const li = document.createElement("li");`** li 태그 생성 
 
 
-+ **`li.id = newToDo.id;`** 생성된 li 태그의 id 값을 newTodoObj의 id로 할당 
+2. **`li.id = newToDo.id;`** 생성된 li 태그의 id 값을 newTodoObj의 id로 할당 
 
 
-+ **`span1`** 도 **`const li`** 와 동일한 원리로 할당 
+3. **`span1`** 도 **`const li`** 와 동일한 원리로 할당 
+<br>
+4. **휴지통 아이콘을 클릭할때 마다 해당 list를 제거하기 위해서 `Google font`를 사용** 
+
++ **`<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />`** 를 head에 작성 
+
++ **`const span2 = document.createElement("span")1`** span 태그를 생성 
+
++ **`span2.className = "material-symbols-outlined";`** 생성된 span2의 class명을 할당  
+
++ **`span2.innerText = "delete"`** 생성된 span2의 Text 값을 할당 
 
 
-+ **휴지통 아이콘을 클릭할때 마다 해당 list를 제거하기 위해서 `Google font`를 사용** 
-
-1. **`<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />`** 를 head에 작성 
-
-2. **`const span2 = document.createElement("span")1`** span 태그를 생성 
-
-3. **`span2.className = "material-symbols-outlined";`** 생성된 span2의 class명을 할당  
-
-4. **`span2.innerText = "delete"`** 생성된 span2의 Text 값을 할당 
-
-
-+ **`li.appendChild(span1);`**  span1이 li의 자식으로 들어가진다  
+5. **`li.appendChild(span1);`**  `span1`이 li의 자식으로 들어가진다  
   **`li.appendChild(span2);`** 
-     `span1` 이 먼저 선언되었으므로 **li의 첫번째 후손으로 들어가고** `span2`가 **두번째 후손으로 들어가게된다** 
+     `span1` 이 먼저 선언되었으므로    **li의 첫번째 후손으로 들어가고** `span2`가 **두번째 후손으로 들어가게된다** 
 
 
-+ **`toDoList.appendChild(li);`**  생성된 li가 **`toDoList`** 의 자식으로 들어가게 된다. 
+6. **`toDoList.appendChild(li);`**  생성된 li가 **`toDoList`** 의 자식으로 들어가게 된다. 
 
 ## saveToDos() 함수 
 
@@ -155,10 +154,10 @@ function saveToDos(){
 }
 ```
 
-+ 생성된 리스트를 **`localStorage.setItem`** 을 이용해   
+1. 생성된 리스트를 **`localStorage.setItem`** 을 이용해   
   key 값은 TODOS_KEY으로 Value는 **`JSON.stringify(toDos)`** 으로 저장한다 
 
-+ **`JSON.stringify`** 는 toDos 배열을 **String**으로 바꾼다 
+2. **`JSON.stringify`** 는 toDos 배열을 **String**으로 바꾼다 
 
 ## deletToDo() 함수 
 
@@ -173,18 +172,18 @@ function deletToDo(event){
 }
 ```
 
-+ **`const li = (event.target.parentElement)`** target은 클릭된 HTML의 element, parentElement는 클릭된 element의 부모 
+1. **`const li = (event.target.parentElement)`** target은 클릭된 HTML의 element, parentElement는 클릭된 element의 부모 
 
-+ **`li.remove();`** 선택된 li태그를 제거한다 
+2. **`li.remove();`** 선택된 li태그를 제거한다 
 
-+ **` toDos = toDos.filter((todo) => todo.id !== parseInt(li.id));`** 
+3. **` toDos = toDos.filter((todo) => todo.id !== parseInt(li.id));`** 
 
-1. todo는 todos 각각의 object를 부르게 될 때 필요한 저장공간 
++ todo는 todos 각각의 object를 부르게 될 때 필요한 저장공간 
 
-2. **`filter`함수의** 참 조건은 **toDos 배열안에 있는 각각의 id 값이** 
++ **`filter`함수의** 참 조건은 **toDos 배열안에 있는 각각의 id 값이** 
    **li.id** 값과 다를때이다 
 
-3. 두 값을 비교하기 위해서 문자열인 li.id를 숫자로 변환시켜야 하므로  
++ 두 값을 비교하기 위해서 문자열인 li.id를 숫자로 변환시켜야 하므로  
    **`parseInt`** 를 사용한다 
 
 ## Local Strage에 저장된 값이 있을 경우 리스트 출력 구현 
@@ -202,16 +201,16 @@ if (savedToDos !== null) { //저장된 데이터가 있을경우에 실행
 }
 ```
 
-+ savedToDos 변수를 만들고 **`localStorage.getItem(TODOS_KEY)`** 사용해
+1. savedToDos 변수를 만들고 **`localStorage.getItem(TODOS_KEY)`** 사용해
   key값이 TODOS_KEY로부터 저장된 데이터를 가져온다   
 
-+ **`if (savedToDos !== null)`** 저장된 데이터가 있을경우에만 실행된다 
+2. **`if (savedToDos !== null)`** 저장된 데이터가 있을경우에만 실행된다 
 
-+ **`const parsedToDos = JSON.parse(savedToDos);`** 
+3. **`const parsedToDos = JSON.parse(savedToDos);`** 
   **`JSON.parse`**는 object로 바꾸는 역할을 한다
 
-+ **`parsedToDos.forEach(paintToDo);`** 
+4. **`parsedToDos.forEach(paintToDo);`** 
 
-1. **각각의 item에 대해서 paintToDo를 실행시킨다**
++ **각각의 item에 대해서 paintToDo를 실행시킨다**
 
-2. **parsedToDos가 4개의 인덱스를 가지고 있는 배열이라면 paindToDo를 각각의 인덱스에 대해서 총 4번 실행하게 된다.**  
++ **parsedToDos가 4개의 인덱스를 가지고 있는 배열이라면 paindToDo를 각각의 인덱스에 대해서 총 4번 실행하게 된다.**  
