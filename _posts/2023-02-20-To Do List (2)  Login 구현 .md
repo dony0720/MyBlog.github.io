@@ -88,10 +88,10 @@ function onLogin(event){
 login_input.value의 값을 가져오기 위해서 <br>
 **form태그의 자동으로 submit되고 페이지를 재시작하는 event의 기본동작을 막는다** <br>   
   
-2. login 되었을때 login_form 부분은 보이지 않게 하기위해 **classList를 사용해** <br>
+2. login 되었을때 **`login_form`** 부분은 보이지 않게 하기위해 **`classList`를 사용해** <br>
 기존 클래스명을 유지한채 'hidden' 클래스명을 추가
 
-3. input에 넣은 값을 저장하기위해 localStorage.setItem("username", username) 을 사용함 <br>
+3. input에 넣은 값을 저장하기위해 **`localStorage.setItem("username", username)`** 을 사용함 <br>
 개발자 도구에서 Application 메뉴로 이동해 Local Storage 항목을 선택해 확인할 수 있다. 
 
 ## paintGreetings 함수 
@@ -104,7 +104,7 @@ function paintGreetings(username) {
 }
 ```
 
-1. **innerText를 사용해** id 값이 greeting인 h1 태그 안에 **`Hello ${username}`를 출력** 
+1. **`innerText`를 사용해** id 값이 greeting인 h1 태그 안에 **`Hello ${username}`를 출력** 
 
 
 ```python
