@@ -69,17 +69,17 @@ function play() {
 +  audio의 길이를 초(seconds) 단위로 반환
 
 
-3. audio.loop = true;
+4. audio.loop = true;
 
 +  audio를 반복 재생함
 
 
-4. audio.src = "my_audio.mp3";
+5. audio.src = "my_audio.mp3";
 
 +  audio의 경로를 지정함(URL)
 
 
-5. audio.volume = 0.2;
+6. audio.volume = 0.2;
 
 +  audio의 음량을 0.2로 지정함
    음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
