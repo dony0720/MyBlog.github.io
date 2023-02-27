@@ -224,7 +224,7 @@ main {
           다 쓰겠다는 의미입니다. 
 
 
-3. 테두리된 영역을 좌우, 상하 가운데 정렬하기 위해 **`display`**  를 적용하고 
+3. 테두리된 영역을 좌우, 상하 가운데 정렬하기 위해 **`display`** 를 적용하고   
    **`justify-content: center;`** 와 **`align-items: center;`** 사용
 
 
