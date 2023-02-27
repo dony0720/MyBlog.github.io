@@ -126,7 +126,7 @@ toDoList.appendChild(li);
 
 
 3. **`span1`** 도 **`const li`** 와 동일한 원리로 할당 
-<br>
+
 
 4. **휴지통 아이콘을 클릭할때 마다 해당 list를 제거하기 위해서 `Google font`를 사용** 
 
