@@ -57,9 +57,9 @@ const login_button = document.querySelector("#login_form #submit");
 const greeting = document.querySelector("#greeting");
 ```
 
-1.**document는 js가 html에 접근하기 위해서 사용되어짐** 
+1. **document는 js가 html에 접근하기 위해서 사용되어짐** 
 
-2.**HTML 요소의 선택은 다음과 같습니다**
+2. **HTML 요소의 선택은 다음과 같습니다**
 
 + **document.getElementsByTagName(태그이름):**   -> 해당 태그 이름의 요소를 모두 선택함.
 
