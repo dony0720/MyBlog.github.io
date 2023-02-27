@@ -373,6 +373,7 @@ main {
 
 + **캘린더에 자세한 내용은 기능 구현을 할때 설명하겠습니다.** 
 
+```python
 ## todo.css 
 
 .todo-box {  
@@ -416,6 +417,7 @@ main {
     padding: 10px;
     margin: 5px;
 }
+```
 
 1. **`overflow-x: none;`** , **`overflow-y: scroll;`** 를 사용해 
    y축 scroll만 이용해 리스트 내용이 많을때 이용 
