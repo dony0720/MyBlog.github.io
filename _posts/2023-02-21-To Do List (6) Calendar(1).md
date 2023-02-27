@@ -187,8 +187,9 @@ function renderCalendar() {
 
 4. **매달 마지막 요일 날짜 수가 다르기 때문에 해당되는 월의 마지막 날짜와 요일을 얻는 코드를 작성해야 합니다** 
 
- **`const preLast = new Date(view_year, view_month, 0)`** 다음달 마지막 날짜  
- **`const thisLast = new Date(view_year, view_month + 1, 0)`** 이번달 마지막 날짜 
+ + **`const preLast = new Date(view_year, view_month, 0)`** 다음달 마지막 날짜  
+
+ + **`const thisLast = new Date(view_year, view_month + 1, 0)`** 이번달 마지막 날짜 
 
  + 지난달 날짜의 일부분과 이번달 날짜를 출력하기 위해 변수 설정 
  
