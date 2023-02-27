@@ -223,7 +223,7 @@ main {
 }
 ```
 
-[box-sizing 에 대한 설명](https://www.codingfactory.net/10630)
+[box-sizing 에 대한 설명](https://www.codingfactory.net/10630)   
 1.+ **box-sizing: border-box; // 설명 추가** 
 
 2. **`body`** 높이는 100vh를 너비는 100vw를 할당 
