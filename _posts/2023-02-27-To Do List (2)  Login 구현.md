@@ -60,20 +60,20 @@ const greeting = document.querySelector("#greeting");
 
 2. **HTML 요소의 선택은 다음과 같습니다**
 
- + **document.getElementsByTagName(태그이름):** <br>
-  -> 해당 태그 이름의 요소를 모두 선택함.
+  + **document.getElementsByTagName(태그이름):** <br>
+   -> 해당 태그 이름의 요소를 모두 선택함.
 
- +  **document.getElementById(아이디):** <br>
-   -> 해당 아이디의 요소를 선택함.
+  +  **document.getElementById(아이디):** <br>
+    -> 해당 아이디의 요소를 선택함.
 
- +  **document.getElementsByClassName(클래스이름):** <br>
-   -> 해당 클래스에 속한 요소를 모두 선택함.
+  +  **document.getElementsByClassName(클래스이름):** <br>
+    -> 해당 클래스에 속한 요소를 모두 선택함.
 
- + **document.getElementsByName(name속성값):** <br>
-  -> 해당 name 속성값을 가지는 요소를 모두 선택함..
+  + **document.getElementsByName(name속성값):** <br>
+   -> 해당 name 속성값을 가지는 요소를 모두 선택함..
 
- + **document.querySelectorAll(선택자):** <br>
-  -> 해당 선택자로 선택되는 요소를 모두 선택함.
+  + **document.querySelectorAll(선택자):** <br>
+   -> 해당 선택자로 선택되는 요소를 모두 선택함.
 
 ## onLogin 함수 
 
@@ -125,4 +125,4 @@ if (savedUsername === null) {
 1. Local Storage에 저장된 username의 값이 없다면 login 부분의 class ="hidden"을 한다.
 
 2. **login_form.addEventListener("submit", onLogin)** <br>
- +  -> login_form에서 submit 이벤트를 감지할때 onLogin 함수를 실행  
+ + -> login_form에서 submit 이벤트를 감지할때 onLogin 함수를 실행  
