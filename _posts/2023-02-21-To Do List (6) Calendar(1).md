@@ -175,6 +175,7 @@ function renderCalendar() {
 
 <br>
 <br>
+
 3. **`document.querySelector(".year-month").textContent = `${view_year}년 ${view_month + 1}월`**
  
  + dt.getMonth는 반환 값이 현지 시간 기준 월을 나타내는 0 에서 11 사이의 정수를 반환한다 
@@ -183,6 +184,7 @@ function renderCalendar() {
 
 <br>
 <br>
+
 4. **매달 마지막 요일 날짜 수가 다르기 때문에 해당되는 월의 마지막 날짜와 요일을 얻는 코드를 작성해야 합니다** 
 
  **`const preLast = new Date(view_year, view_month, 0)`** 다음달 마지막 날짜  
@@ -197,6 +199,7 @@ function renderCalendar() {
 
 <br>
 <br>
+
 5. **`const preDate = preLast.getDate()`** 
 
  + getDate 메서드는 현지 시간 기준으로 1~31사이에 날짜 수를 반영 
@@ -204,6 +207,7 @@ function renderCalendar() {
 
 <br>
 <br>
+
 6. **`const preDay = preLast.getDay()`** 
 
  + getDay 메서드는 현지 시간 기준으로 요일의 인덱스값을 반영 
@@ -242,6 +246,7 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 1. **`const preDates = []`** 지난달 날짜 
 <br>
 <br>
+
 2. **`const thisDates = [...Array(tdDate + 1).keys()].slice(1)`**
 
  + Array(n)으로 배열을 만들면 길이가 n인 배열이 생성됩니다. (이때 모든 요소들은 undefined)
@@ -294,18 +299,21 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 <br>
 <br>
+
 2. **`const dates = preDates.concat(thisDates, nextDates)`** 
 
  + preDates 배열 뒤에 파라미터 순서대로 배열을 합침 
 
 <br>
 <br>
+
 3. **`const firstDateIndex = dates.indexOf(1)`**
 
  + indexOf 함수는, 문자열(string)에서 특정 문자열(searchvalue)을 찾고, 
     검색된 문자열이 '첫번째'로 나타나는 위치 index를 리턴합니다.
 <br>
 <br>
+
 4. **`const lastDateIndex = dates.lastIndexOf(tdDate)`** 
 
  + 이번달 마지막 날짜를 변수 설정 
@@ -351,6 +359,7 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 
 <br>
 <br>
+
 3. **dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;**
  + this와 other을 구분해 dates 배열에 재할당 
 
