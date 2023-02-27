@@ -161,6 +161,7 @@ function renderCalendar() {
 ```
 <br>
 <br>
+
 ## 날짜 구하기 
 
 1. **`const view_year = dt.getFullYear()`** 
