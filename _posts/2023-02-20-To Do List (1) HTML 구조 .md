@@ -82,6 +82,8 @@ title: To Do List (1) - HTML 구조 작성
 </body>
 
 ```
+<br>
+<br>
 
 ## login 
 
@@ -112,10 +114,15 @@ title: To Do List (1) - HTML 구조 작성
     </div>
 </div>
 ```
+<br>
+<br>
 
 ## login_form 
 
 **input의 유효성을 검사하기 위해서 form 태그를 사용**
+
+<br>
+<br>
 
 ## clock 
 
@@ -127,6 +134,8 @@ title: To Do List (1) - HTML 구조 작성
     <span id="weather"></span>
 </div>
 ```
+<br>
+<br>
 
 ## calendar   
 
@@ -155,6 +164,8 @@ title: To Do List (1) - HTML 구조 작성
     <div class="dates"></div>
 </div>
 ```
+<br>
+<br>
 
 ## dates  
 
@@ -234,6 +245,8 @@ main {
 
 + body의 영역과 마찬가지로 **좌우,상하 가운데 정렬을** 해준다 
 
+<br>
+<br>
 
 ## login.css 
 
@@ -274,6 +287,8 @@ main {
     color: black;
 }
 ```
+<br>
+<br>
 
 ## music.css
 
@@ -299,6 +314,8 @@ main {
 }
 
 ```
+<br>
+<br>
 
 ## volume.css 
 
@@ -320,6 +337,8 @@ main {
     border-radius: 10px;
 }
 ```
+<br>
+<br>
 
 ## clock.css 
 
@@ -356,6 +375,9 @@ main {
 }
 ```
 
+<br>
+<br>
+
 ## calendar.css 
 
 
@@ -371,6 +393,9 @@ main {
 ```
 
 + **캘린더에 자세한 내용은 기능 구현을 할때 설명하겠습니다.** 
+
+<br>
+<br>
 
 ## todo.css 
 
@@ -424,6 +449,9 @@ main {
 2. **`word-break: break-all;`** 텍스트가 범위 밖으로 나갈때 자동으로 줄 바꿈 
 
 3. #todo-list li에서 **`display`** 를 이용한 것은 리스트의 내용과 delete 아이콘을 **`flex`** 하기 위함이다 
+
+<br>
+<br>
 
 ## quote.css 
 
