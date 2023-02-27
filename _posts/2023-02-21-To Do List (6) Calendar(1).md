@@ -181,16 +181,18 @@ function renderCalendar() {
  
  + 0은 1월, 1은 2월 2은 3월....을 나타내므로 해당 월 출력하기 위해서 +1을 해줘야한다 
 
-
-
+<br>
+<br>
 4. **매달 마지막 요일 날짜 수가 다르기 때문에 해당되는 월의 마지막 날짜와 요일을 얻는 코드를 작성해야 합니다** 
 
-**`const preLast = new Date(view_year, view_month, 0)`** 다음달 마지막 날짜  
-**`const thisLast = new Date(view_year, view_month + 1, 0)`** 이번달 마지막 날짜 
+ **`const preLast = new Date(view_year, view_month, 0)`** 다음달 마지막 날짜  
+ **`const thisLast = new Date(view_year, view_month + 1, 0)`** 이번달 마지막 날짜 
 
  + 지난달 날짜의 일부분과 이번달 날짜를 출력하기 위해 변수 설정 
+ 
  + 새로운 Date객체를 생성할 때, date 파라미터에 0을 전달하게 되면, 
    지난달의 마지막 날의 Date 객체가 생성됩니다
+ 
  + 같은 원리로 이번달 마지막 날을 출력하기위해 date 파라미터에 0을 전달 
 
 
