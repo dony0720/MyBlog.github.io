@@ -46,10 +46,10 @@ function play() {
 ```
 
 1. **mp3.loop = true :**   
-  오디오를 반복 재생함 
+   오디오를 반복 재생함 
  
 2. **mp3.volume = soundBtn.value**   
-   음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
+    음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
 
 
 ## 자주 쓰이는 Audio 객체의 속성
@@ -68,33 +68,33 @@ function play() {
 
 4. audio.loop = true;
 
-+ audio를 반복 재생함
++  audio를 반복 재생함
 
 
 5. audio.src = "my_audio.mp3";
 
-+ audio의 경로를 지정함(URL)
++  audio의 경로를 지정함(URL)
 
 
 6. audio.volume = 0.2;
 
-+ audio의 음량을 0.2로 지정함
-  음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
++  audio의 음량을 0.2로 지정함
+   음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
 
 
 ## 자주 쓰이는 Audio 객체의 메소드
 
 1. audio.play();
 
-+ 오디오를 재생시킴 
++  오디오를 재생시킴 
 
 
 2. audio.pause();
 
-+ 오디오를 일시정지함 
++  오디오를 일시정지함 
 
 
 3. audio.load();
 
-+ audio를 다시 load함
- 주로 audio의 src나 설정이 바뀌었을 경우에 사용
++  audio를 다시 load함
+   주로 audio의 src나 설정이 바뀌었을 경우에 사용
