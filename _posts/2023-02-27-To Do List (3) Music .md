@@ -94,13 +94,13 @@ function play() {
     + 오디오를 재생시킴 
 <br> 
 <br>   
-   
+
 2. **`audio.pause()`**
     + 오디오를 일시정지함 
 
 <br> 
 <br>
-   
+
 3. **`audio.load()`**
     + audio를 다시 load함
       주로 audio의 src나 설정이 바뀌었을 경우에 사용
