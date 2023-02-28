@@ -95,8 +95,9 @@ function onLogin(event){
 2. login 되었을때 login_form 부분은 보이지 않게 하기위해 **classList를 사용해** <br>
    기존 클래스명을 유지한채 'hidden' 클래스명을 추가
 
-3. input에 넣은 값을 저장하기위해 localStorage.setItem("username", username)을 사용함<br>
-   개발자 도구에서 Application 메뉴로 이동해 Local Storage 항목을 선택해 확인할 수 있다. 
+3. input에 넣은 값을 저장하기위해 localStorage.setItem("username", username)을   
+   사용함 개발자 도구에서 Application 메뉴로 이동해 Local Storage 항목을 선택해   
+   확인할 수 있다. 
 
 ## paintGreetings 함수 
 
@@ -108,7 +109,7 @@ function paintGreetings(username) {
 }
 ```
 
-+ **innerText를 사용해** id 값이 greeting인 h1 태그 안에 **`Hello ${username}`를 출력** 
+1. **innerText를 사용해** id 값이 greeting인 h1 태그 안에 **`Hello ${username}`를 출력** 
 
 
 ```python
