@@ -33,7 +33,8 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
      1) 장치의 현재 위치를 가져오게 됩니다 
 
-     2) 위치를 얻는데 성공하면 onGeok()함수를 실행하고 실패시 onGeoError() 함수를 실행 
+     2) 위치를 얻는데 성공하면 onGeok()함수를 실행하고 실패시   
+        onGeoError() 함수를 실행 
 
 ## API 이용 
 
@@ -45,9 +46,10 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 1. onGeoOk() 함수의 인자는 GeolocationPosition 객체를 가져온다 
 
-2. GeolocationPosition 객체의 position.coords 부분을 보게 되면 위도와 경도를 확인할 수 있다 
+2. GeolocationPosition 객체의 position.coords 부분을 보게 되면   
+   위도와 경도를 확인할 수 있다 
 
-3. API 호출 예시를 보게 되면 https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY} 되어 있다 
+3. API 호출 예시를 보게 되면 **https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}** 되어 있다 
 
 4. &units=metric 부분을 추가하게 되면 섭씨로된 온도를 확인할 수 있다 
 
