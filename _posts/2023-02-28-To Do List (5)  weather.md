@@ -29,7 +29,7 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 // 장치의 현재 위치를 가져옴, 위치를 얻는데 성공지 onGeok 실행 실패시 onGeoError 실행  
 ```
 
-1. **`navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);`** 
+1. **`navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError)`** 
 
      1) 장치의 현재 위치를 가져오게 됩니다 
 
