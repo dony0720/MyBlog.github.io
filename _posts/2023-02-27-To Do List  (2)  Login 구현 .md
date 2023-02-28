@@ -111,6 +111,8 @@ function paintGreetings(username) {
 
 1. **innerText를 사용해** id 값이 greeting인 h1 태그 안에 **`Hello ${username}`를 출력** 
 
+<br>
+<br>
 
 ```python
 const savedUsername = localStorage.getItem("username");
