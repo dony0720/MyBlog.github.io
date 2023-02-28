@@ -47,6 +47,8 @@ function play() {
 
 1. **mp3.loop = true :**   
     + 오디오를 반복 재생함 
+<br>
+<br>
 
 2. **mp3.volume = soundBtn.value**   
     + 음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
