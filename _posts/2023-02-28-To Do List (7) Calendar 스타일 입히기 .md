@@ -174,6 +174,9 @@ body {
 } 
 ```
 
+<br>
+<br>
+
 **우리가 renderCalendar 함수를 만들때 마지막 부분에 삼항연산자를 이용해    
   condition의 조건이 참일때 `this` 거짓일때 `other`를 했던 부분이 생각날 것이다.**
 
