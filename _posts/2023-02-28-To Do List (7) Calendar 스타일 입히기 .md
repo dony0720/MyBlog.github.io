@@ -1,3 +1,7 @@
+---
+layout: single
+title: To Do List (7) - Calendar(2) 스타일 입히기 
+---
 # Calendar 스타일 입히기 
 
 
@@ -137,7 +141,7 @@ body {
 
 4. 날짜도 한줄에 7개가 있어야 하므로 **100%/7**의 값을 너비값으로 줌 
 
-## 사진
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/%EC%BA%98%EB%A6%B0%EB%8D%94%20%EC%8A%A4%ED%83%80%EC%9D%BC%203.png)
 
 ### 이제 어느정도 잘 정리된 달력의 모양을 볼 수가 있다. 이제 토요일과 일요일에 
 
@@ -174,9 +178,5 @@ body {
   condition의 조건이 참일때 `this` 거짓일때 `other`를 했던 부분이 생각날 것이다.**
 
 1. 이번달에 해당되지 않는 날짜는 흐릿하게 보여주기 위해서 opacity를 투명도를 결정해줌 
-
-## 완성된 달력 
-
-## 사진 
 
 **이제 버튼의 기능을 만들어 좀 더 동적인 달력을 만들어 보도록 하자**
