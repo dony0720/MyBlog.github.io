@@ -45,44 +45,44 @@ function play() {
 }
 ```
 
-1. **mp3.loop = true :**   
+1. **`mp3.loop = true`**   
     + 오디오를 반복 재생함 
 <br>
 <br>
 
-2. **mp3.volume = soundBtn.value**   
+2. **`mp3.volume = soundBtn.value`**   
     + 음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
 <br> 
 <br>
 
-## 자주 쓰이는 Audio 객체의 속성
+## 자주 쓰이는 Audio` 객체의 속성
 
-1. audio.autoplay = true;
+1. **`audio.autoplay = true`**
     + audio가 load 될 때 자동재생됨
 <br> 
 <br>  
      
-2. audio.currentTime = 5;
+2. **`audio.currentTime = 5`**
     + audio의 재생시점을 5초로 설정함
 <br> 
 <br>
 
-3. audio.duration;
+3. **`audio.duration`**
     + audio의 길이를 초(seconds) 단위로 반환
 <br> 
 <br>   
    
-4. audio.loop = true;
+4. **`audio.loop = true`**
     + audio를 반복 재생함
 <br> 
 <br>   
    
-5. audio.src = "my_audio.mp3";
+5. **`audio.src = "my_audio.mp3"`**
     + audio의 경로를 지정함(URL)
 <br> 
 <br>   
    
-6. audio.volume = 0.2;
+6. **`udio.volume = 0.2`**
     + audio의 음량을 0.2로 지정함
       음량은 0.0 ~ 1.0 사이 값으로 지정할 수 있고, 1.0이 가장 큰 음량
 <br> 
@@ -90,18 +90,18 @@ function play() {
    
 ## 자주 쓰이는 Audio 객체의 메소드
 
-1. audio.play();
+1. **`audio.play()`**
     + 오디오를 재생시킴 
 <br> 
 <br>   
 
-2. audio.pause();
+2. **`audio.pause()`**
     + 오디오를 일시정지함 
    
 <br> 
 <br>
 
-3. audio.load();
+3. **`audio.load()`**
     + audio를 다시 load함
       주로 audio의 src나 설정이 바뀌었을 경우에 사용
 <br> 
