@@ -421,16 +421,16 @@ main {
 }
 ```
 
-1. **`overflow-x: none;`** , **`overflow-y: scroll`**   
-   리스트 내용이 많을때 이용 y축 scroll만 존재  
+1. **`overflow-x: none`** , **`overflow-y: scroll`**   
+   -> 리스트 내용이 많을때 이용 y축 scroll만 존재   
 
 
-2. **`word-break: break-all`** 
-   텍스트가 범위 밖으로 나갈때 자동으로 줄 바꿈 
+2. **`word-break: break-all`**    
+   -> 텍스트가 범위 밖으로 나갈때 자동으로 줄 바꿈 
 
 
-3. #todo-list li에서 **`display`** 를 이용한 것은 리스트의 내용과 delete 아이콘을   
-   **`flex`** 하기 위함이다 
+3. #todo-list li에서 **`display`** 를 이용한 것은 리스트의    
+   내용과 delete 아이콘을 **`flex`** 하기 위함이다 
 
 ## quote.css 
 
