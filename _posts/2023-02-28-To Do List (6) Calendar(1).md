@@ -6,6 +6,7 @@ title: To Do List (6) - Calendar 기능 구현
 
 ## 소스 코드
 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/calendar.PNG)
 
 ```python
 /*
@@ -340,3 +341,11 @@ document.querySelector('.dates').innerHTML = dates.join('');**
     2) ex) const arr =[a,b,c]   
            let result1 = arr.join();   
            결과 값: a,b,c   
+<br>
+<br>
+
+### 날짜 출력   
+
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/calendar%20test.png)   
+   
+**뒤에 css를 통해서 보기 쉽게 정리를 해보는게 좋을거 같습니다** 
