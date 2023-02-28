@@ -1,3 +1,7 @@
+---
+layout: single
+title: To Do List (4) - 배경화면 바꾸기 기능 구현
+---
 # 배경화면 바꾸기 기능 구현 
 
 ## 소스코드 
