@@ -53,8 +53,9 @@ document.body.appendChild(bgImage);
 
     3) Math.floor를 사용해 소수점 뒷자리를 반올림해 정수를 생성   
 
-    4) 암호학적으로 안전한 난수를 발생시키지 않아 보안과 관련해서는 사용하지 말아야 한다   
-       그 대신 Web Crypto API의 window.crypto.getRandomValues() 메소드를 이용하여야 한다.   
+    4) 암호학적으로 안전한 난수를 발생시키지 않아 보안과 관련해서는 사용하지   
+       말아야 한다 그 대신 Web Crypto API의 window.crypto.getRandomValues()   
+       메소드를 이용하여야 한다.   
    
 3. bgImage.src = `img/${chosenImage}`;     
    
