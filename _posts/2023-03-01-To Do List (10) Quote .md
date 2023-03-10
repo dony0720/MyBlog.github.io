@@ -1,3 +1,7 @@
+---
+layout: single
+title: To Do List (10) -Quote 작성하기 
+---
 # Quote 생성
 
 ## 소스코드 
