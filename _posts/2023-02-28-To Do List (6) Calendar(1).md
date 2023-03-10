@@ -158,6 +158,8 @@ function renderCalendar() {
   document.querySelector('.dates').innerHTML = dates.join('');
 }
 ```
+<br>
+<br>
 
 ## 날짜 구하기 
 
