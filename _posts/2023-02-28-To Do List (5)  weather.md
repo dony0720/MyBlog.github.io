@@ -33,8 +33,8 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
      1) 장치의 현재 위치를 가져오게 됩니다 
 
-     2) 위치를 얻는데 성공하면 onGeok()함수를 실행하고 실패시   
-        onGeoError() 함수를 실행 
+     2) 위치를 얻는데 성공하면 **onGeok()** 함수를 실행하고 실패시   
+        **onGeoError()** 함수를 실행 
 <br>
 <br>
 
@@ -49,9 +49,9 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 ## onGeoOk 함수 
 
-1. onGeoOk() 함수의 인자는 GeolocationPosition 객체를 가져온다 
+1. **onGeoOk()** 함수의 인자는 **GeolocationPosition** 객체를 가져온다 
 
-2. GeolocationPosition 객체의 position.coords 부분을 보게 되면   
+2. **GeolocationPosition** 객체의 **position.coords** 부분을 보게 되면   
    위도와 경도를 확인할 수 있다 
 
 3. API 호출 예시를 보게 되면 **https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}** 되어 있다 
@@ -63,6 +63,6 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 ## onGeoError 함수 
 
-1. 장치의 현재 위치를 가져오는데 실패시 onGeoError 함수 실행 
+1. 장치의 현재 위치를 가져오는데 실패시 **onGeoError** 함수 실행 
 
 2. Can't find you. No weather for you. 라는 메시지의 경고창이 뜸 
