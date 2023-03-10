@@ -163,12 +163,12 @@ function renderCalendar() {
 
 ## 날짜 구하기 
 
-1. `const view_year = dt.getFullYear()` 
+1. **`const view_year = dt.getFullYear()`**
 
     1) 연도를 가져오는 변수 설정 
 
 
-2. **const view_month = dt.getMonth();**
+2. **`const view_month = dt.getMonth()`**
 
     1) 월을 가져오는 변수 설정 
 
@@ -218,13 +218,13 @@ const preDates = [];
 const thisDates = [...Array(tdDate + 1).keys()].slice(1);
 const nextDates = [];
   
-if (preDay !== 6) {
+if (preDay !== 6) { //지난달 날짜 생성 
     for (let i = 0; i < preDay + 1; i++) {
       preDates.unshift(preDate - i);
     }
 }
 
-for (let i = 1; i < 7 - tdDay; i++) {
+for (let i = 1; i < 7 - tdDay; i++) { //다음달 날짜 생성 
     nextDates.push(i);
   }
 
@@ -263,7 +263,8 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
                   }   
              }`**    
 
-    2) preDay !== 6 -> 지난달 마지막 요일이 토요일인 경우(index값이 6) 출력할 필요가 없음
+    2) **preDay !== 6**    
+       -> 지난달 마지막 요일이 토요일인 경우(index값이 6) 출력할 필요가 없음
 
     3) for (let i = 0; i < preDay + 1; i++)    
        -> 0(index값 0 =일요일) 시작으로 해서 마지막 요일(preDay)까지 반복
@@ -273,29 +274,29 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 
 
 
-6. **다음달 날짜 생성**
+5. **다음달 날짜 생성**
 
-    1) **`for (let i = 1; i < 7 - tdDay; i++) {   
+    1) **for (let i = 1; i < 7 - tdDay; i++) {   
              nextDates.push(i);   
-           }`**
+           }**
   
-     2) for (let i = 1; i < 7 - tdDay; i++)    
+     2) **for (let i = 1; i < 7 - tdDay; i++)**    
         -> 일주일 중에 이번달 마지막 요일의 인덱스 값을 빼면 다음달 출력할 요일의 수가 나오게 된다
 
     3) 다음달의 시작 날짜 수는 1 부터 이므로 i값을 push 함수를 이용해 nextDates에 채워 넣는다 
 
 
-7. **`const dates = preDates.concat(thisDates, nextDates)`** 
+6. **`const dates = preDates.concat(thisDates, nextDates)`** 
 
     1) preDates 배열 뒤에 파라미터 순서대로 배열을 합침 
 
 
-8. **`const firstDateIndex = dates.indexOf(1)`**
+7. **`const firstDateIndex = dates.indexOf(1)`**
 
     1) indexOf 함수는, 문자열(string)에서 특정 문자열(searchvalue)을 찾고,   
        검색된 문자열이 '첫번째'로 나타나는 위치 index를 리턴합니다.
   
-9. **`const lastDateIndex = dates.lastIndexOf(tdDate)`** 
+8. **`const lastDateIndex = dates.lastIndexOf(tdDate)`** 
 
     1) 이번달 마지막 날짜를 변수 설정 
 
