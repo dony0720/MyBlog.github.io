@@ -35,12 +35,17 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
      2) 위치를 얻는데 성공하면 onGeok()함수를 실행하고 실패시   
         onGeoError() 함수를 실행 
+<br>
+<br>
 
 ## API 이용 
 
 1. google에 openWeather -> API -> Current weather data에 접속
 
 2. 로그인 진행 후 영문이름을 클릭하게 되면 MY API KEYS를 통해서 Key값을 확인 
+
+<br>
+<br>
 
 ## onGeoOk 함수 
 
@@ -52,6 +57,9 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 3. API 호출 예시를 보게 되면 **https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}** 되어 있다 
 
 4. &units=metric 부분을 추가하게 되면 섭씨로된 온도를 확인할 수 있다 
+
+<br>
+<br>
 
 ## onGeoError 함수 
 
