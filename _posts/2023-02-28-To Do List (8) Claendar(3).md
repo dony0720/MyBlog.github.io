@@ -49,7 +49,7 @@ function preMonth() {
 
 1. **'<'버튼을** 누를때 이전달로 넘어가야 하기 때문에 
 
-2. `dt.setMonth(dt.getMonth() - 1)`를 이용해 현재 달에 -1 값으로 설정  
+2. **dt.setMonth(dt.getMonth() - 1)** 를 이용해 현재 달에 -1 값으로 설정  
 
 3. 재할당된 dt.setMonth를 가지고 renderCalendar() 호출
 
@@ -68,7 +68,7 @@ function nextMonth() {
 
 1. **'>'버튼을** 누를때 다음달로 넘어가야 하기 때문에 
 
-2. `dt.setMonth(dt.getMonth() + 1)`를 이용해 현재 달에 +1 값으로 설정
+2. **dt.setMonth(dt.getMonth() + 1)** 를 이용해 현재 달에 +1 값으로 설정
 
 3. 재할당된 dt.setMonth를 가지고 renderCalendar() 호출
 
