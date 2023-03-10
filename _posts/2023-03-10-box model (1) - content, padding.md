@@ -66,8 +66,7 @@ css에서 width와 height 속성을 설정할때에 가르키는 부분은 conte
 ```
 
 + width에 50%의 값을 할당하게 되면 div 태그의 길이가 절반이 되는걸 볼 수 있다. 
-
-# width 속성 사진 2 
+ 
 
 ## height 속성 
 
