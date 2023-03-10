@@ -1,3 +1,7 @@
+---
+layout: single
+title:  Css box -model (2)
+---
 # css box-model (1)
 
 # border 속성 
