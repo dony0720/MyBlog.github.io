@@ -1,3 +1,8 @@
+---
+layout: single
+title:  Css box -model (1)
+---
+
 # css box-model (1)
 
 ## box-model 
