@@ -398,7 +398,7 @@ title:  Css box-model (2)
     
     4) border-bottom-left-radius 
 
-## border-radius의 개별 설정 
+# border-radius의 개별 설정 
 
 ## 속성이 4개일때 
 
