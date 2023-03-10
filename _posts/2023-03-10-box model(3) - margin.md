@@ -1,3 +1,7 @@
+---
+layout: single
+title:  Css box-model (3)
+---
 # margin 속성
 
 **`margin`에 대해서** 
