@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Css box -model (2)
+title:  Css box-model (2)
 ---
 # css box-model (1)
 
