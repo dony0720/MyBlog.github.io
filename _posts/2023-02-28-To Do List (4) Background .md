@@ -58,11 +58,11 @@ document.body.appendChild(bgImage);
        말아야 한다 그 대신 Web Crypto API의 window.crypto.getRandomValues()   
        메소드를 이용하여야 한다.   
    
-3. bgImage.src = `img/${chosenImage}`;     
+3. **bgImage.src = img/${chosenImage}**     
    
     1) 생성된 img태그의 src를 지정
      
 4. **document.body.appendChild(bgImage)**    
      
-     1) createElement("img")와 bgImage.src = `img/${chosenImage}`를 사용해 생성된      
-     `<img src = "chosenImage">` 가  body의 자식으로 들어간다 
+     1) createElement("img")와 bgImage.src = **img/${chosenImage}** 를 사용해 생성된      
+     **<img src = "chosenImage">** 가  body의 자식으로 들어간다 
