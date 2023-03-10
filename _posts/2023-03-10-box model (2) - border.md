@@ -79,7 +79,7 @@ title:  Css box -model (2)
 </body>
 ```
 
-# border 사진 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/border%20%EC%86%8D%EC%84%B1%201.png) 
 
 # border-width 속성 
 
@@ -156,7 +156,7 @@ title:  Css box -model (2)
 </body>
 ```
 
-# border-width 사진 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/border-width%201%20.png) 
 
 # border-color 
 
@@ -249,8 +249,7 @@ title:  Css box -model (2)
 
 </body>
 ```
-
-# border-color사진 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/border-color%20%EC%86%8D%EC%84%B1.png) 
 
 # border-style의 개별 설정 
 
@@ -381,7 +380,7 @@ title:  Css box -model (2)
 
 **다음과 같이 모든 border 속성을 이용해서 한줄에 정의할 수 있다** 
 
-## border 축약표현 사진 
+![](https://github.com/dony0720/dony0720.github.io/blob/master/image/border%20%EC%B6%95%EC%95%BD%ED%91%9C%ED%98%84.png) 
 
 # border-radius 속성 
 
