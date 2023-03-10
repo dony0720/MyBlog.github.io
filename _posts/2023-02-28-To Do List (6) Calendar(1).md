@@ -103,6 +103,8 @@ goPre.addEventListener("click", preMonth);
 goNext.addEventListener("click", nextMonth);
 goTd.addEventListener("click", todaybtn);
 ```
+<br>
+<br>
 
 # renderCalendar 함수 
 
@@ -203,6 +205,8 @@ function renderCalendar() {
  
     2) 일요일은 0을, 월요일은 1을 .....토요일은 6을 반영 
 
+<br>
+<br>
 
 ## 날짜 합치기 
 
@@ -292,6 +296,9 @@ const lastDateIndex = dates.lastIndexOf(tdDate);
 9. **`const lastDateIndex = dates.lastIndexOf(tdDate)`** 
 
     1) 이번달 마지막 날짜를 변수 설정 
+
+<br>
+<br> 
 
 ## forEach 삼항연산자를 사용해 이번달 날짜 구분하기 
 
