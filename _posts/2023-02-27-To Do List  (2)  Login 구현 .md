@@ -95,8 +95,8 @@ function onLogin(event){
 2. login 되었을때 login_form 부분은 보이지 않게 하기위해 **classList를 사용해** <br>
    기존 클래스명을 유지한채 'hidden' 클래스명을 추가
 
-3. input에 넣은 값을 저장하기위해 localStorage.setItem("username", username)을   
-   사용함 개발자 도구에서 Application 메뉴로 이동해 Local Storage 항목을 선택해   
+3. input에 넣은 값을 저장하기위해 **localStorage.setItem("username", username)**을   
+   사용함 개발자 도구에서 **Application 메뉴**로 이동해 **Local Storage** 항목을 선택해   
    확인할 수 있다. 
 
 ## paintGreetings 함수 
@@ -128,4 +128,4 @@ if (savedUsername === null) {
 1. Local Storage에 저장된 username의 값이 없다면 login 부분의 class ="hidden"을 한다.
 
 2. **login_form.addEventListener("submit", onLogin)** <br>
-    1) login_form에서 submit 이벤트를 감지할때 onLogin 함수를 실행  
+    1) login_form에서 **submit** 이벤트를 감지할때 **onLogin** 함수를 실행  
