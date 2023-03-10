@@ -324,9 +324,9 @@ document.querySelector('.dates').innerHTML = dates.join('');**
        아래의 코드를 실행시킴 
 
 
-2. **`const condition = i >= firstDateIndex && i < lastDateIndex + 1
+2. **const condition = i >= firstDateIndex && i < lastDateIndex + 1
       ? 'this'
-      : 'other'`** 
+      : 'other'** 
     
     1) codition의 조건문은 i가 firstDateIndex(이번달 첫 날짜) 와 lastDateIndex(이번달 마지막 날짜) 사이에 있을때로 설정함   
 
