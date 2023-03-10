@@ -81,7 +81,7 @@ quote.innerText = todaysQuote.quote;
 author.innerText = `-${todaysQuote.author}-`;
 ```
 
-1. const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)]
+1. **const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)]**
 
     1) 0~1사이에 난수를 생성는 **Math.random**을 사용    
     
