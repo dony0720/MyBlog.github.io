@@ -34,6 +34,8 @@ goPre.addEventListener("click", preMonth);
 goNext.addEventListener("click", nextMonth);
 goTd.addEventListener("click", todaybtn);
 ```
+<br>
+<br>
 
 ## preMonth() 함수 
 
@@ -51,6 +53,9 @@ function preMonth() {
 
 3. 재할당된 dt.setMonth를 가지고 renderCalendar() 호출
 
+<br>
+<br>
+
 ## nextMonth() 함수 
 
 
@@ -66,6 +71,9 @@ function nextMonth() {
 2. `dt.setMonth(dt.getMonth() + 1)`를 이용해 현재 달에 +1 값으로 설정
 
 3. 재할당된 dt.setMonth를 가지고 renderCalendar() 호출
+
+<br>
+<br>
 
 ## todaybtn() 함수 
 
