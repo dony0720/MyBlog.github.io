@@ -5,9 +5,9 @@ title:  Css box-model (1)
 
 # css box-model (1)
 
-## box-model 
+# box-model 
 
-1. **`box-model`이란?** 
+1. **`box-model`이란?**    
     1) 모든 HTML의 요소는 box 모양으로 구성되어 있습니다. 
     
     2) 박스모델은 content, padding, border, margin으로 구성되어 있습니다.
@@ -24,8 +24,10 @@ title:  Css box-model (1)
 
 # width와 height 속성 
 
-css에서 width와 height 속성을 설정할때에 가르키는 부분은 content(내용) 부분만을 가르킨다.    
-다른 부분인 padding, border, margin은 포함되지 않는다. 
+css에서 width와 height 속성을 설정할때에 가르키는 부분은 content(내용) 부분만을 가르킨다. 다른 부분인 padding, border, margin은 포함되지 않는다. 
+
+<br>
+<br>
 
 ## width 속성 
 
@@ -66,8 +68,8 @@ css에서 width와 height 속성을 설정할때에 가르키는 부분은 conte
 ```
 
 + width에 50%의 값을 할당하게 되면 div 태그의 길이가 절반이 되는걸 볼 수 있다. 
- 
-
+<br>
+<br> 
 ## height 속성 
 
 
@@ -89,6 +91,8 @@ css에서 width와 height 속성을 설정할때에 가르키는 부분은 conte
 ```
 
 + height에 50px 값을 할당해 높이의 변화가 생긴걸 알 수 있다, 
+<br>
+<br>
 
 # padding 속성 
 
@@ -105,12 +109,14 @@ css에서 width와 height 속성을 설정할때에 가르키는 부분은 conte
 
 4. padding - left
     + padding의 왼쪽 부분을 가리킴     
-
+<br>
+<br>
 ## padding의 개별 설정
 
 **top, right, bottom, left의 padding 속성값을 한줄로 설정할때 사용합니다** 
 
-
+<br>
+<br> 
 ## padding의 속성값이 4개일때 
 
 **top, right, bottom, left의 순으로 값을 할당하게 된다**
@@ -144,7 +150,8 @@ css에서 width와 height 속성을 설정할때에 가르키는 부분은 conte
 
 4. padding-left: 80px  
 
-
+<br>
+<br> 
 ## padding의 속성값이 3개일때 
 
 **top, right와 left, bottom의 순으로 값을 할당하게 된다**
@@ -177,7 +184,8 @@ css에서 width와 height 속성을 설정할때에 가르키는 부분은 conte
 
 4. padding-left: 20px  
 
-
+<br>
+<br> 
 ## padding의 속성값이 2개일때 
 
 **top와 bottom, right와 left의 순으로 값을 할당하게 된다**
