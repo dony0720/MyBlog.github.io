@@ -3,7 +3,8 @@ layout: single
 title:  Css box-model (2)
 ---
 # css box-model (1)
-
+<br>
+<br> 
 # border 속성 
 
 1. **css에서 border에 제공하는 속성은 다음과 같습니다** 
@@ -360,7 +361,8 @@ title:  Css box-model (2)
    
 4. border-left-style: solid;
    
-
+<br>
+<br>
 # border의 축약표현 
 
 
