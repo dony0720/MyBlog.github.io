@@ -65,17 +65,17 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 1. **fetch(url)**    
 
-  1) 반환받은 요청 (response)은 then 메서드 콜백인자로 들어가게 된다.    
+    1) 반환받은 요청 (response)은 then 메서드 콜백인자로 들어가게 된다.    
 
 2. **.then((response) => response.json())**   
   
-  1) response의 json() 메서드를 호출한다.   
+    1) response의 json() 메서드를 호출한다.   
   
-  2) 응답내용을 json으로 변환한 다음 then의 콜백인자로 넘겨준다.   
+    2) 응답내용을 json으로 변환한 다음 then의 콜백인자로 넘겨준다.   
 
 3. **.then((data) =>**    
   
-  1) 넘겨받은 값을 통해 필요한 정보를 추출한다.
+    1) 넘겨받은 값을 통해 필요한 정보를 추출한다.
   
 
 <br>
